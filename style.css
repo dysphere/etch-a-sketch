@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rowDiv {
+    flex: 1;
+    background-color: white;
+}
+
