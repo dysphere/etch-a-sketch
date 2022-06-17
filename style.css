@@ -2,6 +2,8 @@
     display: flex;
     height: 500px;
     width: 500px;
+    border-style: dashed;
+    border-color: gray;
 }
 
 .row {
@@ -17,4 +19,14 @@
 
 .colorChange {
     background-color: black;
+}
+
+.header {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
